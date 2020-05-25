@@ -14,3 +14,5 @@ Then create Directory :
 
 Also we need to change hdfs owner to cloudera run this command :
 `'sudo -u hdfs hadoop fs -chown cloudera /user/hive/warehouse/twitterDB'`
+
+
