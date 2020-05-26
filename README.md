@@ -1,5 +1,10 @@
 # Kafka-Spark-Streaming-Hive
 
+Producer Part is from this repository 
+
+https://github.com/dbsheta/kafka-twitter-producer
+
+
 ## Kafka
 
 First Download Apache Kafka and extract it to ~/Downloads/  Then run the following commands to Start Kafka Server
