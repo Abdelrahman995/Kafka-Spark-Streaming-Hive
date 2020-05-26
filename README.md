@@ -1,4 +1,6 @@
-# Kafka-Spark-Streaming-Hive
+# Kafka-Spark-Streaming-Hive Project
+
+## Twitter-Producer
 
 Producer Part is from this [repository](https://github.com/dbsheta/kafka-twitter-producer/)
 
