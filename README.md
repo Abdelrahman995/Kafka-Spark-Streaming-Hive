@@ -40,7 +40,7 @@ then ***Create Table in Hive***  :
 `CREATE EXTERNAL TABLE tweets_data (id BIGINT  ,text string , lang string , user_id BIGINT  , user_name string , user_screenName string , user_location string , user_followersCount int , retweetCount int , favoriteCount int ) STORED AS PARQUET LOCATION '/user/hive/warehouse/tweets_staging/';`
 
 
-**How to run**  
+## **How to run**  
 
 (1) Run zookeeper , kafka servers , HDFS , Hive and Impala Services.
 (2) Run Twitter-Kafka-Producer  to produce data (tweets) in JSON Format to Kafka topic.
