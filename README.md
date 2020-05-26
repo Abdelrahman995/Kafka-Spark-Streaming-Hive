@@ -43,10 +43,16 @@ then ***Create Table in Hive***  :
 ## **How to run**  
 
 (1) Run zookeeper , kafka servers , HDFS , Hive and Impala Services.
+
 (2) Run Twitter-Kafka-Producer  to produce data (tweets) in JSON Format to Kafka topic.
+
 (3) Run Spark-Streaming to write data filtered and cleaned to HDFS in Parquet files.
+
 (4) Create Hive table in specified directory which is the same spark writeStream in.
+
 (5) Install ODBC connector to connect from tableau to Cloudera Hadoop to make some visuals.
+
+
 
 
 
