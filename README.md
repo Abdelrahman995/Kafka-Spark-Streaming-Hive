@@ -2,7 +2,7 @@
 
 ## Project Architecture
 
-![Architecture img](https://github.com/Abdelrahman995/Kafka-Spark-Streaming-Hive/tree/master/scrnShots/Architecture.png/)
+![Architecture img](/scrnShots/Arch.png)
 
 ## **Twitter-Producer**
 
