@@ -9,7 +9,7 @@ First Download Apache Kafka and extract it to ~/Downloads/  Then run the followi
 
 `bin/kafka-server-start.sh config/server.properties`
 
-***Creating Topic in Kafka ***
+***Creating Topic in Kafka***
  
 `bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic tweets_data`
 
