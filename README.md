@@ -9,7 +9,7 @@ First Download Apache Kafka and extract it to ~/Downloads/  Then run the followi
 
 `bin/kafka-server-start.sh config/server.properties`
 
-***Creating Topic***
+***Creating Topic in Kafka ***
  
 `bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic tweets_data`
 
@@ -30,7 +30,7 @@ Then create Directory :
 Also we need to change hdfs owner to cloudera run this command :
 `'sudo -u hdfs hadoop fs -chown cloudera /user/hive/warehouse/tweets_staging/'`
 
-then **Create Table** in Hive :
+then ***Create Table in Hive***  :
 
 `CREATE EXTERNAL TABLE tweets_data (id BIGINT  ,text string , lang string , user_id BIGINT  , user_name string , user_screenName string , user_location string , user_followersCount int , retweetCount int , favoriteCount int ) STORED AS PARQUET LOCATION '/user/hive/warehouse/tweets_staging/';`
 
