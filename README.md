@@ -8,6 +8,9 @@
 
 Producer Part is from this [repository](https://github.com/dbsheta/kafka-twitter-producer/)
 
+OutPut Should be like 
+![Producer.PNG](/scrnShots/Producer.PNG)
+
 
 ## Kafka
 
@@ -26,6 +29,17 @@ To **make Sure** that topic is created list all topics
 
 `bin/kafka-topics.sh --list --bootstrap-server localhost:9092`
 
+## Spark 
+
+Reading from kafka topic and when you uncomment the print on console part output should be like
+
+![SparkOut.PNG](/scrnShots/SparkOut.PNG)
+
+## Hadoop HDFS 
+
+Data should be writtern in **Parquet Files** like 
+![ParquetFiles PNG](/scrnShots/ParquetFiles.PNG)
+
 ## Hive 
 
 First make HDFS directory to save parquet files in it which is streamed from spark 
@@ -42,6 +56,17 @@ Also we need to change hdfs owner to cloudera run this command :
 then ***Create Table in Hive***  :
 
 `CREATE EXTERNAL TABLE tweets_data (id BIGINT  ,text string , lang string , user_id BIGINT  , user_name string , user_screenName string , user_location string , user_followersCount int , retweetCount int , favoriteCount int ) STORED AS PARQUET LOCATION '/user/hive/warehouse/tweets_staging/';`
+
+## Time to visualize 
+
+Using this ip  
+
+![NetworkConfVM.PNG](/scrnShots/NetworkConfVM.PNG)
+
+
+In Tableau cloudera Hadoop connection 
+
+![Tableau.PNG](/scrnShots/Tableau.PNG)
 
 
 ## **How to run**  
