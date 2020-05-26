@@ -1,8 +1,6 @@
 # Kafka-Spark-Streaming-Hive
 
-Producer Part is from this repository 
-
-https://github.com/dbsheta/kafka-twitter-producer
+Producer Part is from this [repository](https://github.com/dbsheta/kafka-twitter-producer/)
 
 
 ## Kafka
