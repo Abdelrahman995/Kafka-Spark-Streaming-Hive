@@ -1,5 +1,9 @@
 # Kafka-Spark-Streaming-Hive Project
 
+## Project Architecture
+
+![Architecture img](https://github.com/Abdelrahman995/Kafka-Spark-Streaming-Hive/tree/master/scrnShots/Architecture.png/)
+
 ## **Twitter-Producer**
 
 Producer Part is from this [repository](https://github.com/dbsheta/kafka-twitter-producer/)
