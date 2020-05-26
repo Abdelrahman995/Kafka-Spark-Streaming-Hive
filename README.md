@@ -1,6 +1,21 @@
 # Kafka-Spark-Streaming-Hive
 
+## Kafka
 
+First Download Apache Kafka and extract it to ~/Downloads/  Then run the following commands to Start Kafka Server
+
+
+`cd /home/cloudera/Downloads/kafka_2.12-2.5.0`
+
+`bin/kafka-server-start.sh config/server.properties`
+
+***Creating Topic***
+ 
+`bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic tweets_data`
+
+To **make Sure** that topic is created list all topics 
+
+`bin/kafka-topics.sh --list --bootstrap-server localhost:9092`
 
 ## Hive 
 
