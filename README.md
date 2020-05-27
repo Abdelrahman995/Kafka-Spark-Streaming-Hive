@@ -68,6 +68,15 @@ In Tableau cloudera Hadoop connection
 
 ![Tableau.PNG](/scrnShots/Tableau.PNG)
 
+Here is some charts: 
+
+![chart1.PNG](/scrnShots/chart1.PNG)
+
+![chart2.PNG](/scrnShots/chart2.PNG)
+
+![chart3.PNG](/scrnShots/chart3.PNG)
+
+![chart4.PNG](/scrnShots/chart4.PNG)
 
 ## **How to run**  
 
